@@ -1,0 +1,77 @@
+body {
+    background-color: #f5f5f5;
+    color: #000000;
+    font-family: Tahoma, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* 'Trebuchet MS', sans-serif */
+
+h1, h2 {
+    color: #000000;
+    font-family: Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(45deg, rgb(141, 197, 64), rgb(159, 236, 52));
+    border-radius: 1rem;
+    width: fit-content;
+    padding: 1rem;
+    margin: 0 auto;
+}
+
+.container {
+    background: linear-gradient(45deg, rgba(22,95,151,1), rgb(16, 112, 185));
+    color: rgb(255, 255, 255);
+    width: 80%;
+    margin: 2rem auto;
+    padding: 2rem;
+    text-align: center;
+    border-radius: 2rem;
+    box-shadow: 0.25rem 0.25rem 2rem rgba(0, 0, 0);
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    text-align: left;
+    font-size: 1.5rem;
+}
+
+button {
+    background: linear-gradient(45deg, rgb(141, 197, 64), rgb(159, 236, 52));
+    color: #000000;
+    font-family: Tahoma, sans-serif;
+    font-size: 1.25rem;
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    margin: 1rem;
+    transition: all 0.3s ease-in-out;
+    width: fit-content;
+}
+
+button:hover {
+    background: linear-gradient(45deg, rgb(159, 236, 52), rgb(141, 197, 64));
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+input, select {
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 2rem;
+    margin: 0.5rem 0px 1rem 0px;
+}
+
+label {
+    font-size: 1.25rem;
+}
